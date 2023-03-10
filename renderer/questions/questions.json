@@ -1,0 +1,603 @@
+{
+  "companies": [
+    {
+      "question": "¿Qué empresa riojana inscribió la primera cepa nativa de cannabis en Argentina?",
+      "anwsers": [
+        { "anwser": "Alfa", "isCorrect": false },
+        { "anwser": "Agrogenética", "isCorrect": true },
+        { "anwser": "Frutos San Nicolás", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Kayne mejora la calidad genética de animales bovinos de la raza:",
+      "anwsers": [
+        { "anwser": "Braford", "isCorrect": true },
+        { "anwser": "Brangus", "isCorrect": false },
+        { "anwser": "Criolla", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "La marca de productos alimenticios elaborados por Agroandina es:",
+      "anwsers": [
+        { "anwser": "Sabores de la Cuesta", "isCorrect": false },
+        { "anwser": "Delicias de los Llanos", "isCorrect": false },
+        { "anwser": "Sabores del Valle", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "¿Qué productos están a la venta en las sucursales de Cerdo de los Llanos?",
+      "anwsers": [
+        { "anwser": "Carne, frutas y verduras", "isCorrect": false },
+        { "anwser": "Solo carne de cerdo", "isCorrect": false },
+        { "anwser": "Carne de cerdo, conejo y cabrito", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "¿Qué marca de motocicletas es producida netamente en La Rioja?",
+      "anwsers": [
+        { "anwser": "Cerro Motos", "isCorrect": true },
+        { "anwser": "Motomel", "isCorrect": false },
+        { "anwser": "Honda", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "¿Qué empresa estatal tiene más años de antigüedad?",
+      "anwsers": [
+        { "anwser": "Agroandina", "isCorrect": false },
+        { "anwser": "Banco Rioja", "isCorrect": true },
+        { "anwser": "Parque Eólico Arauco", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "¿Cuál de estas estatales riojanas es una de las cinco principales empresas de conservas de Argentina?",
+      "anwsers": [
+        { "anwser": "Hortícola Riojana", "isCorrect": false },
+        { "anwser": "Riodeco", "isCorrect": false },
+        { "anwser": "Agroandina", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "¿Qué empresas de Mejor Riojanas intervienen en Plan Angelelli?",
+      "anwsers": [
+        {
+          "anwser": "Riodeco, Rioja Vial, Edelar y Aguas Riojanas",
+          "isCorrect": true
+        },
+        {
+          "anwser": "Banco Rioja, Fogaplar, Ledlar y Kayne",
+          "isCorrect": false
+        },
+        {
+          "anwser": "Agroarauco, Parque Eólico Arauco, Internet Para Todos y Elargas ",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "¿Qué empresa ganó diversos premios en Jesús María y ExpoBra?",
+      "anwsers": [
+        { "anwser": "Agroarauco", "isCorrect": false },
+        { "anwser": "Caudillos Riojanos", "isCorrect": true },
+        { "anwser": "Colonia Cunícola", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "¿A cuántos riojanos y riojanas beneficiará el Gasoducto Productivo?",
+      "anwsers": [
+        { "anwser": "A más de 30 mil", "isCorrect": false },
+        { "anwser": "A más de 50 mil", "isCorrect": false },
+        { "anwser": "A más de 70 mil", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "¿Cuántos trabajadores suman las 38 empresas de Mejor Riojanas?",
+      "anwsers": [
+        { "anwser": "Más de 2300", "isCorrect": false },
+        { "anwser": "Más de 2500", "isCorrect": false },
+        { "anwser": "Más de 2800", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "¿En qué porcentaje aumentó la cantidad de fuentes de trabajo en las empresas estalates durante los últimos tres años?",
+      "anwsers": [
+        { "anwser": "Más del 15%", "isCorrect": false },
+        { "anwser": " Más del 32%", "isCorrect": false },
+        { "anwser": " Más del 40%", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "¿Qué empresa riojana se sumó a las exportaciones argentinas?",
+      "anwsers": [
+        { "anwser": "Riodeco", "isCorrect": false },
+        { "anwser": " Agroandina", "isCorrect": true },
+        { "anwser": " Frutos San Nicolás", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "¿Qué productos característicos de nuestra tierra elabora Agroarauco?",
+      "anwsers": [
+        { "anwser": "Aceitunas y aceite de oliva", "isCorrect": true },
+        { "anwser": " Nueces y alfajores de turrón", "isCorrect": false },
+        { "anwser": " Vino y arrope de chañar", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "¿Qué empresas organizaron el Primer Remate de Cabañas Riojanas?",
+      "anwsers": [
+        { "anwser": " Riodeco y Vidrios Riojanos", "isCorrect": false },
+        { "anwser": " Kayne y Caudillos Riojanos", "isCorrect": true },
+        { "anwser": " Banco Rioja y Fogaplar", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Cerdo de los Llanos sumó a sus sucursales productos alimenticios elaborados por…",
+      "anwsers": [
+        { "anwser": "Agroandina", "isCorrect": false },
+        { "anwser": " Colonia Cunícola", "isCorrect": true },
+        { "anwser": " Vallesol", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "¿Cómo se llama el programa de Elargas, destinado a financiar las instalaciones de gas domiciliarias?",
+      "anwsers": [
+        { "anwser": "En Línea", "isCorrect": false },
+        { "anwser": " Angelelli", "isCorrect": false },
+        { "anwser": " Llama Encendida", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "¿Cuántos hogares riojanos fueron abastecidos en el 2022, por energía producida por el Parque Eólico Arauco?",
+      "anwsers": [
+        { "anwser": "97.000", "isCorrect": false },
+        { "anwser": " 121.000", "isCorrect": false },
+        { "anwser": " 124.000", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "¿Cuántos Puntos Farmapos existen y dónde están distribuidos?",
+      "anwsers": [
+        { "anwser": "7 sólo en Capital", "isCorrect": false },
+        {
+          "anwser": " 14 en Capital, Chilecito y Chamical",
+          "isCorrect": false
+        },
+        { "anwser": " 19 en toda la provincia", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "¿Qué empresas están muy prontas a inaugurarse?",
+      "anwsers": [
+        { "anwser": "Dripsa y Puertas del Sol", "isCorrect": false },
+        {
+          "anwser": " Vidrios Riojanos y Allpapuka Cerámica Riojana",
+          "isCorrect": true
+        },
+        { "anwser": " ERSA y EMDERSA", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "¿Cuántos boletos vendió Rioja Bus en la Capital durante 2022?",
+      "anwsers": [
+        { "anwser": "Más de 2.000.000", "isCorrect": false },
+        { "anwser": "Más de 4.000.000", "isCorrect": false },
+        { "anwser": "Más de 6.000.000", "isCorrect": true }
+      ]
+    },
+
+    {
+      "question": "¿Qué empresa colaboró en la lucha contra el covid durante la pandemia, a través de tareas de desinfección en las calles riojanas?",
+      "anwsers": [
+        { "anwser": "Rioja Vial", "isCorrect": true },
+        { "anwser": "Dripsa", "isCorrect": false },
+        { "anwser": "Ledlar", "isCorrect": false }
+      ]
+    },
+
+    {
+      "question": "¿Cuántos pueblos riojanos cuentan con red gratuita de Internet Para Todos gracias al Plan En Línea?",
+      "anwsers": [
+        { "anwser": "Más de 85", "isCorrect": false },
+        { "anwser": "Más de 170", "isCorrect": false },
+        { "anwser": "Más de 240", "isCorrect": true }
+      ]
+    },
+
+    {
+      "question": "¿Cómo se llama el vino producido por Bodega y Fincas de Aminga?",
+      "anwsers": [
+        { "anwser": "Bouquet de Aminga", "isCorrect": false },
+        { "anwser": "Febrero Riojano", "isCorrect": true },
+        { "anwser": "El Viñedo", "isCorrect": false }
+      ]
+    },
+
+    {
+      "question": "¿En qué año se inauguró Rioja Bus?",
+      "anwsers": [
+        { "anwser": "2018", "isCorrect": false },
+        { "anwser": "2020", "isCorrect": true },
+        { "anwser": "2021", "isCorrect": false }
+      ]
+    },
+
+    {
+      "question": "¿Cuántos kilogramos de pasas de uva fueron exportados a 8 países por Vallesol en 2022?",
+      "anwsers": [
+        { "anwser": " 920.789", "isCorrect": false },
+        { "anwser": "1.023.879", "isCorrect": false },
+        { "anwser": "1.461.568", "isCorrect": true }
+      ]
+    },
+
+    {
+      "question": "¿Qué empresa provee alimento para animales a productores de Olta?",
+      "anwsers": [
+        { "anwser": "Alfa", "isCorrect": true },
+        { "anwser": "Frutos San Nicolás", "isCorrect": false },
+        { "anwser": "Kayne", "isCorrect": false }
+      ]
+    },
+
+    {
+      "question": "¿Cuántos nuevos trabajadores y trabajadoras se sumaron a Edelar en 2022?",
+      "anwsers": [
+        { "anwser": "98", "isCorrect": false },
+        { "anwser": "174", "isCorrect": false },
+        { "anwser": "236", "isCorrect": true }
+      ]
+    },
+
+    {
+      "question": "¿A qué país exportó Agroandina 24 toneladas de extracto de tomate a inicios de 2023?",
+      "anwsers": [
+        { "anwser": "Brasil", "isCorrect": true },
+        { "anwser": "éxico", "isCorrect": false },
+        { "anwser": "olombia", "isCorrect": false }
+      ]
+    },
+
+    {
+      "question": "¿En qué rubros se distribuyen las 38 empresas estatales que forman parte de Mejor Riojanas?",
+      "anwsers": [
+        { "anwser": "Ganaderas, Alimenticias y Servicios", "isCorrect": false },
+        {
+          "anwser": "Agropecuarias, Alimenticias, Industriales y Servicios",
+          "isCorrect": true
+        },
+        { "anwser": "Industriales y Servicios", "isCorrect": false }
+      ]
+    }
+  ],
+  "padel": [
+    {
+      "question": "El deporte del Pádel es un deporte del tipo…",
+      "anwsers": [
+        {
+          "anwser": "Cooperacion-Oposicion de espacio comun",
+          "isCorrect": false
+        },
+        { "anwser": "Cooperacion-Oposicion", "isCorrect": true },
+        {
+          "anwser": "Cooperacion-Oposicion de espacio variable",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "En pádel ¿es posible devolver la pelota al campo contrario golpeando dos cristales seguidos?",
+      "anwsers": [
+        { "anwser": "Esta acción es posible", "isCorrect": true },
+        {
+          "anwser": "Si sucediese esta acción no sería reglamentaria",
+          "isCorrect": false
+        },
+        { "anwser": "Esta acción es imposible", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "En padel ¿que significa sacarla por 2?",
+      "anwsers": [
+        {
+          "anwser": "Ninguna de las anteriores es cierta",
+          "isCorrect": true
+        },
+        {
+          "anwser": "Que al golpear la pelota rebote en la pista luego en la pared de fondo y sacarla por la pared de fondo de campo",
+          "isCorrect": false
+        },
+        {
+          "anwser": "Que al golpear la pelota, ésta rebote en la pista, luego en la pared de fondo y sale del campo",
+          "isCorrect": false
+        },
+        {
+          "anwser": "Que al golpear la bola, rebote en la pista y luego sale directamente por encima de la pared",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "El objetivo del deporte del pádel es…",
+      "anwsers": [
+        {
+          "anwser": "Evitar el reenvío del rival y enviar el móvil al campo contrario",
+          "isCorrect": true
+        },
+        {
+          "anwser": "Enviar el móvil a las zonas de mayor porcentaje de éxito para conseguir punto",
+          "isCorrect": false
+        },
+        {
+          "anwser": "Enviar todas las veces que se pueda el móvil al campo contrario",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "En un momento del partido se da el marcador de ventaja al resto y te toca sacar. El primer saque lo fallas",
+      "anwsers": [
+        {
+          "anwser": "Si vuelves a fallar tu rival empata el marcador",
+          "isCorrect": false
+        },
+        {
+          "anwser": "Te toca hacer un nuevo saque desde el cuadro izquierdo de servicio",
+          "isCorrect": true
+        },
+        {
+          "anwser": "Te toca hacer un nuevo saque desde el cuadro derecho de servicio",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Si te dan una pelota de tenis y una de pádel sin saber cual es cual ¿que variable usarías para diferenciar una de ellas?",
+      "anwsers": [
+        { "anwser": "Las lineas que conforman la costura", "isCorrect": false },
+        { "anwser": "El rebote y la presión", "isCorrect": true },
+        {
+          "anwser": "El tipo de cosido de las partes que la conforman",
+          "isCorrect": false
+        }
+      ]
+    },
+
+    {
+      "question": "Si te encontraras en zona roja de ataque ¿cuales serían los golpes más lógicos que deberías realizar si te tocara golpear la bola?",
+      "anwsers": [
+        { "anwser": "Volea con poca presión", "isCorrect": true },
+        { "anwser": "Volea con mucha presion", "isCorrect": false },
+        { "anwser": "Globo", "isCorrect": false },
+        { "anwser": "Buscar la reja", "isCorrect": false },
+        { "anwser": "Golpe plano entre rivales", "isCorrect": false },
+        { "anwser": "Bandeja suave esquinada", "isCorrect": false }
+      ]
+    },
+
+    {
+      "question": "Quienes Son Los Numero 1 Del Mundo?",
+      "anwsers": [
+        { "anwser": "Galán- Lebrón (Correcto)", "isCorrect": true },
+        { "anwser": "Tapia- Coello ", "isCorrect": false },
+        { "anwser": "Di Neno- Stupaczuk", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "¿Que jugador argentino fue 17 años (creo que es) número uno?",
+      "anwsers": [
+        { "anwser": "Fernando belasteguin", "isCorrect": true },
+        { "anwser": "Juan Lebrón", "isCorrect": false },
+        { "anwser": "Alejandro Galán", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Cual Es El Primer Torneo En Sudamerica En Tener La Presencia De Mujeres?",
+      "anwsers": [
+        { "anwser": "La Rioja Padel Open", "isCorrect": true },
+        { "anwser": "Chile Pádel Open", "isCorrect": false },
+        { "anwser": "Paragay Pádel Open", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Quien Fue El Ultimo Equipo Campeón Del Mundo De Pádel Masculino? ",
+      "anwsers": [
+        { "anwser": "Argentina (Correcto)", "isCorrect": true },
+        { "anwser": "España", "isCorrect": false },
+        { "anwser": "Brasil", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Que Paletas Usan Las Gemelas Atómicas?",
+      "anwsers": [
+        { "anwser": "Wiiinn", "isCorrect": false },
+        { "anwser": "Royal", "isCorrect": false },
+        { "anwser": "Nox", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "A Quien Denominan Como Los Super Pibes?",
+      "anwsers": [
+        { "anwser": "Ausburguer-Libaak", "isCorrect": false },
+        { "anwser": "Stupaczuk-Di Nenno", "isCorrect": true },
+        { "anwser": "Navarro-Tello", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Dondo Nacio Agustin Tapia?",
+      "anwsers": [
+        { "anwser": "La Rioja", "isCorrect": false },
+        { "anwser": "Catamarca", "isCorrect": true },
+        { "anwser": "Tucuman", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Cuando Se Implementó El Punto De Oro?",
+      "anwsers": [
+        { "anwser": "2020", "isCorrect": false },
+        { "anwser": "2021", "isCorrect": true },
+        { "anwser": "2015", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Quienes fueron la pareja n° 1 durante 13 años consecutivos?",
+      "anwsers": [
+        { "anwser": "Navarro-Tello", "isCorrect": false },
+        { "anwser": "Belastiguin - Lima", "isCorrect": false },
+        { "anwser": "Belastiguin - Diaz", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "Que jugador le pegó a Lamperti en el ojo en el club facundo en la Rioja? ",
+      "anwsers": [
+        { "anwser": "Sanyo Gutierrez", "isCorrect": true },
+        { "anwser": "Belastiguin", "isCorrect": false },
+        { "anwser": "Diaz", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Cómo le dicen a sanyo Gutiérrez? ",
+      "anwsers": [
+        { "anwser": "El mago", "isCorrect": true },
+        { "anwser": "El grande", "isCorrect": false },
+        { "anwser": "El principe", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Como se llama la raqueta del pádel?",
+      "anwsers": [
+        { "anwser": "Padela", "isCorrect": false },
+        { "anwser": "Raquetinha", "isCorrect": false },
+        { "anwser": "Pala", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "El pádel es un deporte que se juega…",
+      "anwsers": [
+        { "anwser": "Individual", "isCorrect": false },
+        { "anwser": "2 vs 2", "isCorrect": true },
+        { "anwser": "Equipos de 3", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "¿Cuales son las medidas del campo de pádel?",
+      "anwsers": [
+        {
+          "anwser": "10 mts de ancho x 20 mts de largo",
+          "isCorrect": true
+        },
+        { "anwser": "10 mts de ancho x 30 mts de largo", "isCorrect": false },
+        { "anwser": "40 mts de ancho x 20 mts de largo", "isCorrect": false },
+        { "anwser": "15 mts de ancho x 10 mts de largo", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "¿De cuantos games se conforma un set en el padel?",
+      "anwsers": [
+        { "anwser": "3", "isCorrect": false },
+        { "anwser": "45", "isCorrect": false },
+        { "anwser": "6", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "¿A cuantos sets gana un jugador un partido de padel?",
+      "anwsers": [
+        { "anwser": "3 de 5", "isCorrect": false },
+        { "anwser": "2 de 3", "isCorrect": true },
+        { "anwser": "5 de 7", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "En que situacion del juego es obligatorio dejar rebotar la pelota primero para luego golpearla?",
+      "anwsers": [
+        { "anwser": "En el saque", "isCorrect": true },
+        { "anwser": "Luego de pegar en el suelo", "isCorrect": false },
+        { "anwser": "En la devolucion", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "¿Que pasa si la pelota que usted golpea pega directo en una de las paredes del campo  del rival?",
+      "anwsers": [
+        {
+          "anwser": "Es una pelota permitida y sigue el juego normalmente",
+          "isCorrect": false
+        },
+        {
+          "anwser": "Es una pelota mala y el punto es para el rival",
+          "isCorrect": true
+        },
+        {
+          "anwser": "Es una pelota buena y usted gana el punto",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "¿Que pasa si la pelota que usted golpea pega en el suelo del rival y luego en una de las paredes?",
+      "anwsers": [
+        { "anwser": "Es punto para usted", "isCorrect": false },
+        { "anwser": "Es punto para el rival", "isCorrect": false },
+        {
+          "anwser": "Esa pelota es buena y sigue en juego siempre y cuando no sea una pelota jugada desde el saque",
+          "isCorrect": true
+        },
+        {
+          "anwser": "Esa bola es mala y se repite con un saque ",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "¿En qué año crees que se comenzó a practicar el padel?",
+      "anwsers": [
+        { "anwser": "1970", "isCorrect": false },
+        { "anwser": "1997", "isCorrect": false },
+        { "anwser": "1980", "isCorrect": true },
+        { "anwser": "1900", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "¿Cuando puedes pasar la pala de campo?",
+      "anwsers": [
+        { "anwser": "Nunca se puede", "isCorrect": false },
+        {
+          "anwser": "Cuando la pelota vuelve al otro campo despues de votar en el tuyo",
+          "isCorrect": true
+        },
+        { "anwser": "Siempre puede pasar", "isCorrect": false },
+        { "anwser": "En los puntos impares", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "¿Cuales de estas opciones son golpes de padel?",
+      "anwsers": [
+        { "anwser": "Dormilona", "isCorrect": false },
+        { "anwser": "Volea", "isCorrect": false },
+        { "anwser": "Vibora", "isCorrect": false },
+        { "anwser": "Todas son correctas", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "¿Cuanto dura un partido de padel?",
+      "anwsers": [
+        { "anwser": "1 hora", "isCorrect": false },
+        { "anwser": "3 partes de 15 minutos", "isCorrect": false },
+        { "anwser": "90 minutos", "isCorrect": false },
+        { "anwser": " No tiene tiempo definido", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "¿Como se cuentan los juegos en el padel?",
+      "anwsers": [
+        { "anwser": "1,2,3…", "isCorrect": true },
+        { "anwser": "10, 30, 40…", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "¿Donde comenzó el padel?",
+      "anwsers": [
+        { "anwser": "Mexico", "isCorrect": true },
+        { "anwser": "Argentina", "isCorrect": false },
+        { "anwser": "España", "isCorrect": false }
+      ]
+    }
+  ]
+}

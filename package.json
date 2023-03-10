@@ -1,0 +1,38 @@
+{
+  "name": "trivia",
+  "version": "1.0.0",
+  "description": "Trivia Game",
+  "main": "main.js",
+  "scripts": {
+    "start:hot": "npx electromon .",
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder",
+    "postinstall": "electron-builder install-app-deps"
+  },
+  "build": {
+    "appId": "trivia.game",
+    "productName": "trivia.game",
+    "copyright": "Copyright @MSantillan",
+    "win": {
+      "target": [
+        "portable"
+      ]
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "trivia"
+  },
+  "author": "Matias Santillan",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^23.1.2",
+    "electron-builder": "^23.6.0"
+  },
+  "dependencies": {
+    "@kurkle/color": "^0.3.2",
+    "chart.js": "^4.2.1",
+    "chartjs-plugin-datalabels": "^2.2.0"
+  }
+}

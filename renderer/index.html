@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <title>Trivia</title>
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <div class="question-over hidden" id="game-question">
+      <div class="card">
+        <h3>¡Incorrecto!</h3>
+        <section><img src="images/correct.svg" alt="" /></section>
+        <footer class="next-btn">
+          <button>
+            <span>Siguiente</span>
+          </button>
+        </footer>
+      </div>
+    </div>
+
+    <div class="game-over hidden">
+      <div class="card">
+        <h3>¡Perdiste!</h3>
+        <h3 class="score">1 de 3</h3>
+        <footer class="play-again-btn">
+          <button>
+            <span>Juego nuevo</span>
+          </button>
+        </footer>
+      </div>
+    </div>
+
+    <div id="app">
+      <header class="tb-borders hidden">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </header>
+
+      <div id="welcome-section" class="welcome" data-toggleable="true">
+        <div class="play-btn">
+          <img src="images/welcome.svg" alt="" />
+        </div>
+      </div>
+
+      <div
+        id="wheel-section"
+        class="wheel-fortune hidden"
+        data-toggleable="true"
+      >
+        <header class="logos">
+          <div>
+            <img src="images/logo_padel.svg" alt="" />
+          </div>
+          <div>
+            <img src="images/marca_empresas.svg" alt="" />
+          </div>
+        </header>
+        <div class="wrapper">
+          <div class="container">
+            <canvas id="wheel"></canvas>
+            <button id="spin-btn">GIRÁ</button>
+            <img class="arrow" src="images/arrow.svg" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <div id="quizz-section" class="quizz hidden" data-toggleable="true">
+        <div class="category">
+          <img id="quizz-logo" src="images/logo_padel.svg" alt="" />
+        </div>
+
+        <main>
+          <div class="question">
+            <h3>
+              ¿Que pasa si la pelota que usted golpea pega directo en una de las
+              paredes del campo del rival?
+            </h3>
+          </div>
+
+          <div class="options">
+            <button class="option">
+              <span>Es una pelota permitida y sigue el juego normalmente</span>
+            </button>
+            <button class="option">
+              <span>Es una pelota permitida y sigue el juego normalmente</span>
+            </button>
+            <button class="option">
+              <span>Es una pelota buena y usted gana el punto</span>
+            </button>
+          </div>
+        </main>
+      </div>
+
+      <div class="hidden" id="stats">
+        <p>Puntaje: 0</p>
+        <p>Respondidas: 0/3</p>
+      </div>
+
+      <footer class="tb-borders hidden">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </footer>
+    </div>
+
+    <script
+      src="./lib/chart.js"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+      type="module"
+    ></script>
+    <script
+      src="./lib/chartjs-plugin-datalabels.js"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+      type="module"
+    ></script>
+    <script defer src="renderer.js"></script>
+  </body>
+</html>
