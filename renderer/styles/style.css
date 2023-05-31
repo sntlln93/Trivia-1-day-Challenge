@@ -2,7 +2,7 @@
 
 /* Container */
 body {
-  background-image: url("../images/background.svg");
+  background-image: url("../assets/images/background.svg");
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: contain;
@@ -58,19 +58,10 @@ footer {
 
 /* Quizz section */
 .quizz {
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-}
-
-.category {
-  width: 100%;
-  text-align: center;
-  margin-block: 5vh 10vh;
-}
-
-.category > img {
-  width: 40vw;
 }
 
 main {

@@ -14,7 +14,7 @@
     <div class="question-over hidden" id="game-question">
       <div class="card">
         <h3>¡Incorrecto!</h3>
-        <section><img src="images/correct.svg" alt="" /></section>
+        <section><img src="assets/images/correct.svg" alt="" /></section>
         <footer class="next-btn">
           <button>
             <span>Siguiente</span>
@@ -36,16 +36,9 @@
     </div>
 
     <div id="app">
-      <header class="tb-borders hidden">
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-      </header>
-
       <div id="welcome-section" class="welcome" data-toggleable="true">
         <div class="play-btn">
-          <img src="images/welcome.svg" alt="" />
+          <img src="assets/images/welcome.svg" alt="" />
         </div>
       </div>
 
@@ -54,28 +47,16 @@
         class="wheel-fortune hidden"
         data-toggleable="true"
       >
-        <header class="logos">
-          <div>
-            <img src="images/logo_padel.svg" alt="" />
-          </div>
-          <div>
-            <img src="images/marca_empresas.svg" alt="" />
-          </div>
-        </header>
         <div class="wrapper">
           <div class="container">
             <canvas id="wheel"></canvas>
             <button id="spin-btn">GIRÁ</button>
-            <img class="arrow" src="images/arrow.svg" alt="" />
+            <img class="arrow" src="assets/images/arrow.svg" alt="" />
           </div>
         </div>
       </div>
 
       <div id="quizz-section" class="quizz hidden" data-toggleable="true">
-        <div class="category">
-          <img id="quizz-logo" src="images/logo_padel.svg" alt="" />
-        </div>
-
         <main>
           <div class="question">
             <h3>
@@ -102,27 +83,8 @@
         <p>Puntaje: 0</p>
         <p>Respondidas: 0/3</p>
       </div>
-
-      <footer class="tb-borders hidden">
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-      </footer>
     </div>
 
-    <script
-      src="./lib/chart.js"
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-      type="module"
-    ></script>
-    <script
-      src="./lib/chartjs-plugin-datalabels.js"
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-      type="module"
-    ></script>
-    <script defer src="renderer.js"></script>
+    <script defer src="renderer.js" type="module"></script>
   </body>
 </html>
