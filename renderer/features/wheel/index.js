@@ -19,7 +19,8 @@ export default async function renderWheel() {
     rotationValues
   } = getWheelConfig();
 
-  document.querySelector('body').style.backgroundImage = 'url(\'assets/backgrounds/ruleta.svg\')';
+  const bgContainer = document.querySelector('body');
+  bgContainer.style.backgroundImage = 'url(\'assets/backgrounds/ruleta.svg\')';
   spinBtn.disabled = false;
 
   document.querySelector('#stats').classList.remove('hidden');
