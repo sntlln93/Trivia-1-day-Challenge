@@ -2,6 +2,9 @@ import config from '../../../repositories/config.js';
 
 export default function renderGameOverScreen() {
   const configRepository = config();
+  document
+    .querySelector('.play-again-btn button')
+    .addEventListener('click', () => location.reload());
 
   document.querySelector('.question-over').classList.toggle('hidden');
   document.querySelector('.game-over').classList.remove('hidden');

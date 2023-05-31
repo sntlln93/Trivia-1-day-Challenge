@@ -1,4 +1,5 @@
 import renderQuizz from '../features/quizz/index.js';
+import renderWelcome from '../features/welcome/index.js';
 import renderWheel from '../features/wheel/index.js';
 
 export default function goto(route) {
@@ -20,5 +21,6 @@ function navigateTo(section) {
 
 const routes = {
   'quizz-section': renderQuizz,
-  'wheel-section': renderWheel
+  'wheel-section': renderWheel,
+  'welcome-section': renderWelcome
 };
