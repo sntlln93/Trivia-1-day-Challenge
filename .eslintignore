@@ -1,0 +1,7 @@
+/dist
+/node_modules
+/code-signing
+.env
+/renderer/assets
+/renderer/styles
+*.html

@@ -1,6 +1,6 @@
 {
   "name": "trivia",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Trivia Game",
   "main": "main.js",
   "scripts": {
@@ -28,11 +28,19 @@
   "license": "MIT",
   "devDependencies": {
     "electron": "^23.1.2",
-    "electron-builder": "^23.6.0"
+    "electron-builder": "^23.6.0",
+    "eslint": "^8.41.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^16.0.0",
+    "eslint-plugin-promise": "^6.1.1"
   },
   "dependencies": {
     "@kurkle/color": "^0.3.2",
     "chart.js": "^4.2.1",
     "chartjs-plugin-datalabels": "^2.2.0"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/standard/eslintrc.json"
   }
 }
