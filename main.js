@@ -1,4 +1,5 @@
-const { app, BrowserWindow } = require('electron');
+const { app, BrowserWindow, ipcMain } = require('electron');
+const fs = require('fs');
 
 const isDev = process.env.NODE_ENV !== 'production';
 const isMac = process.platform === 'darwin';
@@ -20,7 +21,7 @@ const createWelcomeWindow = () => {
   welcomeWindow.setAspectRatio(9 / 16);
 
   if (isDev) {
-    welcomeWindow.webContents.openDevTools();
+    // welcomeWindow.webContents.openDevTools();
   } else {
     welcomeWindow.setAlwaysOnTop(true, 'screen');
   }
@@ -40,4 +41,13 @@ app.whenReady().then(() => {
 
 app.on('window-all-closed', () => {
   if (!isMac) app.quit();
+});
+
+/**
+ * Writes a file into filesystem
+ */
+ipcMain.on('ping-good', (event, { name, content }) => {
+  const writeStream = fs.createWriteStream(name);
+  writeStream.write(content);
+  writeStream.end();
 });
