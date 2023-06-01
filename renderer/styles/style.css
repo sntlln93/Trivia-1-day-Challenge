@@ -378,3 +378,11 @@ img.arrow {
 .hidden {
   display: none;
 }
+
+.backoffice {
+  position: absolute;
+  z-index: 1000;
+  width: 100vw;
+  height: 100vh;
+  background-color: blue;
+}

@@ -1,11 +1,12 @@
-import renderQuizz from '../features/quizz/index.js';
-import renderWelcome from '../features/welcome/index.js';
-import renderWheel from '../features/wheel/index.js';
+import renderBackoffice from '../screens/backoffice/index.js';
+import renderQuizz from '../screens/quizz/index.js';
+import renderWelcome from '../screens/welcome/index.js';
+import renderWheel from '../screens/wheel/index.js';
 
 export default function goto(route) {
   setTimeout(function () {
     navigateTo(route);
-  }, 1500);
+  }, 500);
 }
 
 function navigateTo(section) {
@@ -22,5 +23,6 @@ function navigateTo(section) {
 const routes = {
   'quizz-section': renderQuizz,
   'wheel-section': renderWheel,
-  'welcome-section': renderWelcome
+  'welcome-section': renderWelcome,
+  'backoffice-section': renderBackoffice
 };
