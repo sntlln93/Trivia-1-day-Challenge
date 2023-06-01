@@ -3,11 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
-    <meta
-      http-equiv="Content-Security-Policy"
-      content="default-src 'self'; script-src 'self'"
-    />
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';"/>
     <title>Trivia</title>
+    <link href="screens/backoffice/bin/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="screens/backoffice/bin/fontawesome/css/all.min.css"/>
     <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body>
@@ -37,8 +36,29 @@
 
     <div id="app">
       <div id="backoffice-section" class="backoffice hidden" data-toggleable="true">
-        backoffice
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <h1 class="h1">Editor</h1>
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <button class="nav-link" id="categoriesButton">Categorías</button>
+                </li>
+                <li class="nav-item">
+                  <button class="nav-link" id="questionsButton">Preguntas</button>
+                </li>
+                <li class="nav-item">
+                  <button class="btn btn-danger" id="exitButton">Salir</button>
+                </li>
+              </ul>
+          </div>
+        </nav>
+
+        <div id="backoffice-categories">
+          
+        </div>
+        <div id="backoffice-questions" style="height: 100%;overflow: auto;"></div>
       </div>
+
       <div id="welcome-section" class="welcome" data-toggleable="true">
         <div class="play-btn">
           <img src="assets/backgrounds/welcome.svg" alt="" />
@@ -89,5 +109,6 @@
     </div>
 
     <script defer src="renderer.js" type="module"></script>
+    <script src="screens/backoffice/bin/bootstrap.bundle.min.js"></script>
   </body>
 </html>

@@ -1,5 +1,5 @@
 import config from '../../repositories/config.js';
-import questionRepository from '../../repositories/questions.js';
+import { getQuestionsByCategory } from '../../repositories/questions.js';
 import goto from '../../routes/index.js';
 import Routes from '../../routes/routes.enum.js';
 import renderStats from './components/Stats.js';
@@ -16,11 +16,10 @@ nextBtn.addEventListener('click', () => {
 export default function renderQuizz() {
   const { getSelectedCategory } = config();
   const selectedCategory = getSelectedCategory();
-  const { getQuestions } = questionRepository();
   const bgContainer = document.querySelector('body');
   bgContainer.style.backgroundImage = `url('./assets/backgrounds/${selectedCategory}.svg')`;
 
-  const selectableQuestions = getQuestions(selectedCategory);
+  const selectableQuestions = getQuestionsByCategory(selectedCategory);
 
   const randomQuestion = (() => {
     const keys = Object.keys(selectableQuestions);
