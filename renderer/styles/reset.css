@@ -67,3 +67,7 @@ table {
 	font-family: "Poppins", sans-serif;
 	user-select: none;
 }
+
+i {
+	pointer-events: none;
+}

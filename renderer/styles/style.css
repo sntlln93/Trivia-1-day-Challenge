@@ -64,6 +64,7 @@ footer {
 }
 
 main {
+  margin-inline: auto;
   width: 90%;
   padding-inline: 5%;
   padding-bottom: 10%;
@@ -203,8 +204,8 @@ main {
   bottom: 50%;
   transform: translate(-50%, 50%);
   content: "";
-  width: 28.5vh; /* TODO: CHANGE INTO EM UNITS*/
-  height: 28.5vh; /* TODO: CHANGE INTO EM UNITS*/
+  width: 435px; /* TODO: CHANGE INTO EM UNITS*/
+  height: 435px; /* TODO: CHANGE INTO EM UNITS*/
   border-radius: 50%;
   border: 10px solid rgba(100, 100, 100, 0.7); /* TODO: CHANGE INTO EM UNITS*/
 }
@@ -384,5 +385,5 @@ img.arrow {
   z-index: 1000;
   width: 100vw;
   height: 100vh;
-  background-color: blue;
+  background-color: white;
 }
